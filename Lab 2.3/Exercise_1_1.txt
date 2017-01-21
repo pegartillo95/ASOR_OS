@@ -1,0 +1,8 @@
+-- Para poder saber el pid de la shell
+echo $$
+
+-- Para con renice cambiar la prioridad sabiendo el pid de un proceso
+renice (prioridad) -p (pid)
+
+-- Para cambiar la politica de scheduling de un proceso y su prioridad sabiendo su pid
+chrt -f -p 12 2442

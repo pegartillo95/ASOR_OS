@@ -1,0 +1,2 @@
+-- Para mostrar el PID,PGID,SID y el comando es decir proceso
+ps xai,pid,pgid,sid,comm

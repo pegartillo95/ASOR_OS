@@ -1,0 +1,5 @@
+-- mostrar todas las señales por numero y su nombre
+kill -l
+
+--enviar una señal a un proceso
+kill -(numero señal) (PID)

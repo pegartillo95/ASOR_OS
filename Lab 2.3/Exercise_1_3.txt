@@ -1,0 +1,1 @@
+Coge la politica y la prioridad del padre y entonces cambian tambien la prioridad maxima y minima.

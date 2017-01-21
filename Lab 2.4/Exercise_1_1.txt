@@ -1,0 +1,5 @@
+-- Lo primero es crear una FIFO 
+ff (nombre)
+-- Despues por ejemplo abres dos terminales y en una haces cat de la FIFO y desde la otra despues haces echo y llega el mensaje de una a otra.
+cat (fifo)
+echo hola > (fifo)

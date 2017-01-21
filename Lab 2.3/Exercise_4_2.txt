@@ -1,0 +1,5 @@
+-- Empezar un proceso sleep 600 desde una terminal
+-- Desde la otra con ps -ejH ver que PID tiene el proceso
+-- Matar esa PID
+-- despues desde donde lanzamos el sleep 600 hacer echo $? que nos muestra el de salida
+-- Devuelve entonces 137 porque el proceso ha sido matado con la señal nueve es decir 128+9
